@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cadê meu filhotinho?</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+
+  </head>
+
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+          <script src="config.js"></script>
+          <!-- Logo -->
+          <a class="navbar-brand" href="#">
+            <img src="./img/logo.svg" width="40">
+          </a>
+
+          <!-- Botão hamburguer (mobile) -->
+          <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          
+          <!-- Menu -->
+          <div class="collapse navbar-collapse" id="navbarMenu">
+            <ul class="navbar-nav me-auto">
+
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/zoonoses.html">🦠 Zoonoses</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/vacinas.html">💉 Vacinas</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/adotar.html">💗 Quero adotar</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/chat.html">💬 Chat</a>
+              </li>
+
+            </ul>
+          </div>
+
+          <!-- Botão dark mode -->
+          <button class id="themeToggle">🌙</button>
+        </div>
+      </nav>
+    </header>
+
+    <main class="app-layout">
+
+      <section class="feed" aria-label="Feed principal">
+        <article class="post-card">
+          <header class="post-author">
+            <span class="mini-avatar" aria-hidden="true"></span>
+            <div>
+              <h2>Raul Teixeira</h2>
+              <p>Postado à 8h atrás</p>
+            </div>
+          </header>
+
+          <p class="post-text">
+            Achei esse cachorrinho na rua hoje, trouxe ele pra casa pra cuidar dele, se vc for o dono, entre em contato.
+          </p>
+
+          <figure class="post-media" role="img" aria-label="Filhote de cachorro deitado"></figure>
+
+          <footer class="post-footer">
+            <p>
+              <span class="comment-icon" aria-hidden="true">◔</span>
+              Eros Amaral Obrigado!! Perdi ele no parque, estava desesperado, já te mandei mensagem amigo.
+            </p>
+            <a href="#">Ver todos os 5 comentários</a>
+            <input type="text" placeholder="Adicione um comentário..." aria-label="Adicionar comentário" />
+          </footer>
+        </article>
+      </section>
+
+      <aside class="right-sidebar" aria-label="Lista de contatos">
+        <div class="contacts-header">
+          <h3>Contatos</h3>
+          <button type="button" class="search-btn" aria-label="Buscar contatos">⌕</button>
+        </div>
+        <ul class="contacts-list">
+          <li><span class="mini-avatar" aria-hidden="true"></span>Samuel Figueira</li>
+          <li><span class="mini-avatar" aria-hidden="true"></span>Roberto Augusto</li>
+          <li><span class="mini-avatar" aria-hidden="true"></span>Gabriela Belissário</li>
+          <li><span class="mini-avatar" aria-hidden="true"></span>Lucas Nascimento</li>
+          <li><span class="mini-avatar" aria-hidden="true"></span>Sheila Avelino</li>
+        </ul>
+      </aside>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
