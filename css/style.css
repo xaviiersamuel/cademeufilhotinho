@@ -17,6 +17,7 @@ body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   color: var(--text);
   background: var(--bg);
+  padding-top: 70px;
 }
 
 body.dark-mode {
